@@ -11,7 +11,9 @@ postgree DB
 Db schema and basic data will be automatically initialized on start up
 
 in resources/application.properties change:
+
 spring.datasource.username=postgres   -- your db usernmae
+
 spring.datasource.password=root       -- your db password
 
 For deployable war file run maven clean install (mvn clean install)
