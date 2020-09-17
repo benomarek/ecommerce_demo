@@ -22,6 +22,7 @@ http://localhost:8080/products/{id}  - for product
 http://localhost:8080/products       - list of products
 
 filter: http://localhost:8080/products?name=SomeNameOfProduct?min=50
+
 Paging is implemented in header, for example if you want set-up page size of product or select page,
 add param to header -Key=Page-Size Value=5  and Key=Page-Number value=0 
 
